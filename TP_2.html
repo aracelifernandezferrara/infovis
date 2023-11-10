@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Trabajo practico 2</title>
+  <style>
+    body {
+      background: linear-gradient(45deg, #D4FFA6, #86FF6E, #00B300); /* Degradado de verde */
+      background-size: 600% 600%; /* Ajuste del tamaño del degradado */
+      animation: gradientAnimation 15s infinite; /* Animación más lenta para el degradado */
+    }
+
+    @keyframes gradientAnimation {
+      0% {
+        background-position: 0% 50%;
+      }
+      100% {
+        background-position: 100% 50%;
+      }
+    }
+
+    /* Estilos para centrar el objeto de Tableau */
+    .center-tableau {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh; /* 100% del alto de la ventana */
+    }
+
+    /* Estilos para el objeto de Tableau */
+    .tableauViz {
+      width: 100%; /* Ancho al 100% del contenedor */
+      height: 50vh; /* Altura ajustada (puedes modificar este valor) */
+    }
+
+    h1 {
+      text-align: center;
+      font-family: sans-serif, Magic R;
+    }
+
+    p {
+      text-align: center;
+      font-family: Arial, sans-serif; /* Cambia la fuente aquí */
+      font-size: 24px; /* Aumenta el tamaño de la letra aquí */
+      margin-top: 20px; /* Agrega espacio superior aquí */
+    }
+  </style>
+</head>
+<body>
+  <h1>Trabajo practico 2 - Allende Valentina - Chiavarini Guido - Fernandez Ferrara Araceli</h1>
+  
+  <p>En este trabajo práctico se analizan los resultados de las PASO (Primarias Abiertas Simultaneas Obligatorias) y de las Elecciones Generales 2023 de Argentina. En el caso del analisis de las PASO solamente se consideran a los partidos que obtuvieron el 1,5% de los votos necesarios para avanzar a las elecciones generales. Y para las generales se tomaron en cuenta a los 3 principales partidos. Los datos fueron obtenidos <a href="https://www.argentina.gob.ar/dine/resultados-electorales/elecciones-2023" target="_blank">aquí</a>. El trabajo fue elaborado con Tableau.</p>
+    <!-- ... Código de Tableau ... -->
+  <div <div class='tableauPlaceholder' id='viz1699651251190' style='position: relative'><noscript><a href='#'><img alt='PASO 2023 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;TP&#47;TP2_Analisis_Paso&#47;Story1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='TP2_Analisis_Paso&#47;Story1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;TP&#47;TP2_Analisis_Paso&#47;Story1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='es-ES' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1699651251190');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.5)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+  </div>
+
+  <script type='text/javascript'>
+    var divElement = document.getElementById('viz1699651251190');
+    var vizElement = divElement.querySelector('.tableauViz');
+    var scriptElement = document.createElement('script');
+    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+    vizElement.parentNode.insertBefore(scriptElement, vizElement);
+  </script>
+</body>
+</html>
