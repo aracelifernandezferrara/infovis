@@ -20,20 +20,11 @@
       }
     }
 
-    /* Estilos para centrar el objeto de Tableau */
-    .center-tableau {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh; /* 100% del alto de la ventana */
-    }
-
-    /* Estilos para el objeto de Tableau */
-    .tableauViz {
-      width: 100%; /* Ancho al 100% del contenedor */
-      height: 50vh; /* Altura ajustada (puedes modificar este valor) */
-    }
-
+    body {
+            text-align: center;
+            background-color: #d8b8e2;
+            margin: 100px;
+        }
     h1 {
       text-align: center;
       font-family: sans-serif, Magic R;
@@ -58,26 +49,14 @@
     <!-- ... Código de Tableau ... -->
   <br>
   <br>
-  <div <div class='tableauPlaceholder' id='viz1699651251190' style='position: relative'><noscript><a href='#'><img alt='PASO 2023 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;TP&#47;TP2_Analisis_Paso&#47;Story1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='TP2_Analisis_Paso&#47;Story1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;TP&#47;TP2_Analisis_Paso&#47;Story1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='es-ES' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1699651251190');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.5)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
-  </div>
-  <script type='text/javascript'>
-    var divElement = document.getElementById('viz1699651251190');
-    var vizElement = divElement.querySelector('.tableauViz');
-    var scriptElement = document.createElement('script');
-    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
-    vizElement.parentNode.insertBefore(scriptElement, vizElement);
-  </script>
+    <div id="tableauContainer">
+        <iframe src="https://public.tableau.com/views/TP2_Analisis_Paso/Story1?:showVizHome=no&:embed=true" width="1030" height="550"></iframe>
+    </div>
   <br>
   <br>
-  <div <div class='tableauPlaceholder' id='viz1699655944519' style='position: relative'><noscript><a href='#'><img alt='Elecciones Generales 2023 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;El&#47;Elecciones_generales_2023&#47;Story1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='Elecciones_generales_2023&#47;Story1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;El&#47;Elecciones_generales_2023&#47;Story1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1699655944519');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='1016px';vizElement.style.height='991px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
-  </div>
-    <script type='text/javascript'>
-    var divElement = document.getElementById('viz1699655944519');
-    var vizElement = divElement.querySelector('.tableauViz');
-    var scriptElement = document.createElement('script');
-    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
-    vizElement.parentNode.insertBefore(scriptElement, vizElement);
-  </script>
+  <div id="tableauContainer">
+        <iframe src="https://public.tableau.com/views/Elecciones_generales_2023/Story1?:showVizHome=no&:embed=true" width="1030" height="550"></iframe>
+    </div>
   <br>
   <br>
 </body>
